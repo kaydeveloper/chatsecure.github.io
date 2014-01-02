@@ -4,43 +4,43 @@ inc:
   subtitle:     "It's a blog."
   cover_image:  blog-cover.jpg
   logo:         logo.png
-  
+
   # Company information
   company:      ChatSecure
-  url:          http://chatsecure.org/
+  url:          http://chatsecure.org
   facebook:     chatsecure
   twitter:      chatsecure
   gplus:        
   about_link:   http://chatsecure.org/about
-  
+
   # Product Information
   product_link: http://chatsecure.org/about
   tagline:      "Get ChatSecure Now"
-  
+
   # Comments
   disqus:
     # Eg. "exampleblog" Set to false to disable comments
     shortname:  false
-  
+
   # Sharing settings
   sharing:
     twitter:    false
     facebook:   false
     gplus:      false
     hn:         false
-    
-  
+
+
  # Analytics     
   analytics:
     google: 
       # eg. 'UA-123-12'
       id:       false
-      
-      
+
+
   # Google Fonts
   # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
   google_font: 'Droid+Sans:400,700'
-  
+
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
 url:         http://chatsecure.github.io
@@ -60,7 +60,7 @@ pygments:    true
 
 relative_permalinks: true
 
-permalink:     pretty
+permalink:     /:categories/:title/
 paginate_path: 'page:num'
 paginate: 10
 
