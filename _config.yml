@@ -1,21 +1,15 @@
 inc:
   # Blog Information
-  title:        "ChatSecure Blog"
-  subtitle:     "It's a blog."
+  title:        "ChatSecure"
+  subtitle:     "Free and open source encrypted chat for iPhone and Android."
   cover_image:  blog-cover.jpg
   logo:         logo.png
 
   # Company information
   company:      ChatSecure
-  url:          http://chatsecure.org
   facebook:     chatsecure
   twitter:      chatsecure
   gplus:        
-  about_link:   http://chatsecure.org/about
-
-  # Product Information
-  product_link: http://chatsecure.org/about
-  tagline:      "Get ChatSecure Now"
 
   # Comments
   disqus:
@@ -24,17 +18,16 @@ inc:
 
   # Sharing settings
   sharing:
-    twitter:    false
-    facebook:   false
-    gplus:      false
-    hn:         false
+    twitter:    true
+    facebook:   true
+    gplus:      true
+    hn:         true
 
 
  # Analytics     
   analytics:
     google: 
-      # eg. 'UA-123-12'
-      id:       false
+      id:       UA-28188864-2
 
 
   # Google Fonts
@@ -50,7 +43,8 @@ plugins:     ./_plugins
 layouts:     ./_layouts
 include:     ['.htaccess']
 exclude:     []
-timezone:    nil
+timezone:    America/Los_Angeles
+encoding:    UTF-8
 
 # Show future posts
 future:      false
@@ -61,8 +55,8 @@ pygments:    true
 relative_permalinks: true
 
 permalink:     /:categories/:title/
-paginate_path: 'page:num'
-paginate: 10
+paginate_path: 'blog/page:num'
+paginate: 5
 
 markdown:      maruku
 markdown_ext:  markdown,mkd,mkdn,md
@@ -70,7 +64,7 @@ textile_ext:   textile
 
 excerpt_separator: "<!-- more -->"
 
-safe:        false
+safe:        true
 host:        0.0.0.0
 port:        4000
 baseurl:     /
