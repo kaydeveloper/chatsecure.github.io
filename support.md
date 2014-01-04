@@ -2,7 +2,6 @@
 layout: info
 permalink: /support/
 title: Support
-cover_image: blog-cover.jpg
 ---
 
 # iOS Support

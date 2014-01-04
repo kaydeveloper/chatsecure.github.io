@@ -2,7 +2,6 @@
 layout: info
 permalink: /faq/
 title: Frequently Asked Questions
-cover_image: blog-cover.jpg
 ---
 
 ## Q: Why can't ChatSecure for iPhone stay connected in the background?

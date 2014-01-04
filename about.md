@@ -2,7 +2,6 @@
 layout: info
 permalink: /about/
 title: About
-cover_image: blog-cover.jpg
 ---
 
 ![ChatSecure Logo](/images/chatsecure-banner.png)

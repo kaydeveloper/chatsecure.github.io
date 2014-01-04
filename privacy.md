@@ -2,7 +2,6 @@
 layout: info
 permalink: /privacy/
 title: Privacy Policy
-cover_image: blog-cover.jpg
 ---
 
 This document is modeled after the [Creative Commons Privacy Policy](http://automattic.com/privacy/) from [Automattic](http://automattic.com).

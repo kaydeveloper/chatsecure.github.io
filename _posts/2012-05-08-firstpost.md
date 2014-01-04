@@ -2,7 +2,6 @@
 layout: post
 
 title: Version 1.2 Submitted
-cover_image: blog-cover.jpg
 category: blog
 
 author:
