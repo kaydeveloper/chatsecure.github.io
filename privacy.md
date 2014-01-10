@@ -9,8 +9,6 @@ This document is modeled after the [Creative Commons Privacy Policy](http://auto
 ## Website Visitors
 Like most website operators, ChatSecure collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. ChatSecure’s purpose in collecting non-personally identifying information is to better understand how ChatSecure’s visitors use its website. From time to time, ChatSecure may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the usage of its website.
 
-ChatSecure's website ("chatsecure.org") is now hosted on [GitHub Pages](http://pages.github.com) so the terms of [GitHub's Privacy Policy](https://help.github.com/articles/github-privacy-policy) also apply.
-
 To protect your privacy, we recommend using a browser plugin to block 3rd party tracking services, such as [Ghostery](http://www.ghostery.com).
 
 ## Mobile Apps

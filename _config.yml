@@ -44,7 +44,7 @@ destination: ./_site
 plugins:     ./_plugins
 layouts:     ./_layouts
 include:     ['.htaccess']
-exclude:     []
+exclude:     ['node_modules', 'Gemfile', 'Gemfile.lock', 'Gruntfile.js', 'LICENSE', 'package.json']
 timezone:    America/Los_Angeles
 encoding:    UTF-8
 
