@@ -29,6 +29,7 @@ inc:
   analytics:
     google: 
       id:       UA-28188864-2
+      domain:   chatsecure.org
 
 
   # Google Fonts
