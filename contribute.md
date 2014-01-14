@@ -25,8 +25,5 @@ If you would like to contribute/improve a translation:
 
 # Code
 
-The source code for both projects is hosted on GitHub.
-
-* [iOS](https://github.com/chrisballinger/Off-the-Record-iOS) / [License](https://github.com/chrisballinger/Off-the-Record-iOS/blob/master/LICENSE) (GPLv3+) [[Contributing](https://github.com/chrisballinger/Off-the-Record-iOS/blob/master/CONTRIBUTING.md)]
-* [Android](https://github.com/guardianproject/ChatSecureAndroid) / [License](https://github.com/guardianproject/ChatSecureAndroid/blob/master/LICENSE) (Apache 2.0)
+The source code for all of our projects is hosted on GitHub. More information is available on our [Developers](/developers) page.
 
