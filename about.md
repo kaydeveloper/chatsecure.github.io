@@ -28,7 +28,7 @@ You can also follow ChatSecure on [Twitter](https://twitter.com/ChatSecure) or [
 * [GitHub Issues - Android](https://github.com/guardianproject/ChatSecureAndroid/issues)
 * [UserVoice - Android](https://chatsecure.uservoice.com/forums/229504-chatsecure-android)
 * [Bug Tracker - Android](https://dev.guardianproject.info/projects/gibberbot)
-* Please report Android security-related issues directly to Nathan of [The Guardian Project Team](https://guardianproject.info/home/team/).
+* Please report Android security-related issues directly to [Nathan Freitas](mailto:nathan@guardianproject.info) ([GPG 69B37AA9](/assets/pubkeys/69B37AA9.asc)) of [The Guardian Project Team](https://guardianproject.info/home/team/).
 
 
 # Source Code
