@@ -73,5 +73,5 @@ Clone the source code and required dependencies.
     $ cd ChatSecureAndroid/
     $ git submodule update --init --recursive
 
-Follow the [rest of the instructions here](https://github.com/guardianproject/ChatSecureAndroid/blob/master/BUILD).
+Follow the [rest of the instructions here](https://github.com/ChatSecure/ChatSecureAndroid/blob/master/BUILD).
 
