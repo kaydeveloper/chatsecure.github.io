@@ -1,0 +1,153 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/assets/css/main.min.css">
+    {% include frontpage/head.html %}
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    {% include _navigation.html %}
+
+    <!-- Header -->
+    <div class="intro-header">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>ChatSecure</h1>
+                        <h3>Encrypted Messenger for iOS and Android</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline app-download-buttons">
+                            <li>
+                                <a href="https://itunes.apple.com/us/app/chatsecure/id464200063"><img src="images/appstore.svg" height="40px" alt="ChatSecure on iOS App Store"></a>
+                            </li>
+                            <li>
+                                <a href="https://play.google.com/store/apps/details?id=info.guardianproject.otr.app.im"><img src="images/playstore.svg" height="45px" alt="ChatSecure for Android on Google Play"></a>
+                            </li>
+                        </ul>
+                        <hr class="intro-divider">
+                        {% include frontpage/social_buttons.html list_class="intro-social-buttons" %}
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+
+    <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Encrypted Chat</h2>
+                    <p class="lead">Communicate with others securely using OTR encryption over XMPP. You can connect to your existing accounts on Facebook or Google, create new accounts on public XMPP servers, or even connect to your own server for extra security.</p>
+                    <p class="lead">Unlike other apps that keep you in their walled garden, ChatSecure is fully interoperable with other clients that support both OTR and XMPP, such as Adium, Pidgin, Jitsi, and more.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="images/ipad.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Strong Cryptography</h2>
+                    <p class="lead">ChatSecure only uses well-known open source cryptographic libraries to keep your conversations secure. Other apps may make claims about "military grade" security but, without publicly auditable source code and verifiable end-to-end encryption, you cannot be truly safe.</p>
+                    <ul class="features-list">
+                        <li>XMPP with TLS certificate pinning.</li>
+                        <li>OTR for verifiable end-to-end encryption and forward secrecy.</li>
+                        <li>Tor to help bypass restrictive firewalls.</li>
+                        <li>SQLCipher to locally encrypt conversation logs.</li>
+                    <ul>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="images/events-screen.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Free and Open Source</h2>
+                    <p class="lead">We believe in the power of free and open source software. The full source code to the <a href="https://github.com/chrisballinger/ChatSecure-iOS">iOS</a> and <a href="https://github.com/guardianproject/ChatSecureAndroid">Android</a> apps is available on GitHub.<br><br>Want to get involved? Feel free to send us a pull request!</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="images/github-octocat.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Help us improve ChatSecure:</h2>
+                </div>
+                <div class="col-lg-6">
+                    {% include frontpage/social_buttons.html list_class="banner-social-buttons" %}
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="copyright text-muted small">Copyright &copy; <a href="https://github.com/chrisballinger">Chris Ballinger</a> 2014. <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.<br>
+                    Header image by <a href="https://www.flickr.com/photos/stuckincustoms/6960953088/">Trey Ratcliff</a>. Template from <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="assets/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

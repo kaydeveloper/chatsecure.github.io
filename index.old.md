@@ -1,6 +1,6 @@
 ---
 layout: info
-permalink: /
+permalink: /old
 title: ChatSecure
 ---
 

@@ -53,7 +53,7 @@ encoding:    UTF-8
 future:      false
 show_drafts: nil
 limit_posts: 0
-pygments:    true
+highlighter: pygments
 
 relative_permalinks: true
 

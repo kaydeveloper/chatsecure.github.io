@@ -10,8 +10,8 @@ title: About
 
 ChatSecure is available on the Apple App Store and Google Play Store for free.
 
-[![ChatSecure for iPhone](/images/appstore.png)](https://itunes.apple.com/us/app/chatsecure/id464200063)
-[![ChatSecure for Android](/images/playstore.png)](https://play.google.com/store/apps/details?id=info.guardianproject.otr.app.im&hl=en)
+[![ChatSecure for iPhone](/images/appstore.svg)](https://itunes.apple.com/us/app/chatsecure/id464200063)
+[![ChatSecure for Android](/images/playstore.svg)](https://play.google.com/store/apps/details?id=info.guardianproject.otr.app.im&hl=en)
 
 You can also follow ChatSecure on [Twitter](https://twitter.com/ChatSecure) or [Facebook](https://www.facebook.com/chatsecure).
 
