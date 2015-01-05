@@ -38,7 +38,7 @@ inc:
 
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         http://chatsecure.github.io
+url:         https://chatsecure.org
 description: Free and open source encrypted chat for iPhone and Android.
 source:      .
 destination: ./_site
