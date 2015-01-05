@@ -19,7 +19,7 @@ Over the last year, [David Chiles](https://github.com/davidchiles) and I have be
 * Conversation archives are encrypted using [SQLCipher](https://www.zetetic.net/sqlcipher/).
 * Experimental [Tor](https://en.wikipedia.org/wiki/Tor_(anonymity_network)) support for custom XMPP accounts.
 
-[Download ChatSecure]((https://itunes.apple.com/us/app/chatsecure/id464200063)) for free from the App Store. If you're a developer you can also [compile it yourself from the source code on GitHub](https://github.com/chrisballinger/ChatSecure-iOS).
+[Download ChatSecure](https://itunes.apple.com/us/app/chatsecure/id464200063) for free from the App Store. If you're a developer you can also [compile it yourself from the source code on GitHub](https://github.com/chrisballinger/ChatSecure-iOS).
 
 ### Tor Support 
 
