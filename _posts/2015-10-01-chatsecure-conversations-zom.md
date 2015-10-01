@@ -8,7 +8,7 @@ author:
   name: Chris Ballinger
   twitter: chrisballingr
   gplus: 110173710196322914492 
-  bio: Lead Developer
+  bio: Founder & Lead Developer
 ---
 
 # ChatSecure, Conversations and Zom
@@ -112,6 +112,10 @@ We will be putting more effort toward providing secure communications tools to i
 
 As a quick side note, iOS 9 added a neat new API for full device VPN, which opens the door for a better way to implement Tor on iOS. [We are working on it!](https://github.com/icepa)
 
+### Keybase Integration?
+
+I had sort of a wild idea the other day to integrate ChatSecure with the [Keybase](https://keybase.io) API, which is basically a cryptographic identity provider and aggregator of your semi-decentralized signatures scattered around on Twitter, GitHub, etc. You can think of it as a successful mashup of a social network and a GPG keyserver. There's a lot of cool UX stuff we could do there, so I'd [like to hear](mailto:chris@chatsecure.org?subject=ChatSecure%20+%20Keybase) any ideas! Also, [Chris](https://keybase.io/chris), we should chat!
+
 ### Jobs
 
 We will soon be hiring mobile, frontend, and backend developers with some or all of the following qualifications. 
@@ -122,16 +126,12 @@ We will soon be hiring mobile, frontend, and backend developers with some or all
 * **Backend**: Python, Django, Ubuntu, Go, Rust, Docker, your own API
 * **General Programming**: data structures, flow control, POSIX, standard stuff. Experience with Test Driven Development would be nice.
 * **Security**: Some basic knowledge of cryptography is a must, but don't stress about the advanced stuff. You must have experience with modern secure / defensive coding practices, familiar with common vulnerabilites in native code, identifying potential areas of concern, surface area analysis, etc.
-* **Open Source** contributions are highly recommended: individual projects, larger projects, pull requests, bug reports, QA, documentation, modular coding practices, semantic versioning, Travis-CI, GitHub, git. Know how to find the best existing open source libraries that solve a need, quickly assess code quality and general maintenance health compared to similar projects, and be able to identify when you should just rewrite it from scratch instead.
+* **Open Source** contributions are highly recommended: individual projects, larger projects, pull requests, bug reports, QA, documentation, modular coding practices, semantic versioning, Travis-CI, GitHub, git. Know how to find the best existing open source libraries that solve a need. Be able to quickly assess a library's code quality and general maintenance health compared to similar projects. Know when to just rewrite it from scratch instead. Know how to properly publish your new open source library.
 * **Freelance Contrators Only**: Sorry, there are currently no full time or permanent positions. If you're looking for that steady 9-5 you really should be looking somewhere else, because this ain't it. Fortunately Obamacare has made buying individual health insurance a lot better for us freelancers.
 * **Equal Opportunity**: We do not discriminate based on race, color, sex, religion, national origin, age, disability, sexual orientation, genetic information, reprisal, socioeconomic class, tattoos, hair color, clothing style, or otherwise.
 * **Berkeley, CA**: East Bay or SF preferred. Remote may be negotiable though!
 
 Want to stand out by sending your application early? [Email me](mailto:chris@chatsecure.org?subject=ChatSecure%20Jobs) with a link to your GitHub profile and a short introduction.
-
-### Keybase Integration?
-
-I had sort of a wild idea the other day to integrate ChatSecure with the [Keybase](https://keybase.io) API which is basically a cryptographic identity provider and aggregator of your semi-decentralized signatures scattered around on Twitter, GitHub, etc. You can think of it as a successful mashup of a social network and a GPG keyserver. There's a lot of cool UX stuff we could do there, so I'd like to hear any ideas! Also, [Chris](https://keybase.io/chris), we should chat!
 
 ### That's All Folks
 
