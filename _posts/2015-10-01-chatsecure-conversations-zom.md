@@ -15,7 +15,7 @@ author:
 
 ![ChatSecure, Conversations and Zom Logos](/images/chatsecure-conversations-zom.png)
 
-We are excited to announce that major changes are planned for the underlying architecture of ChatSecure Android, and that there is a new UX-focused fork of the existing iOS and Android code bases called Zom. In the upcoming months, we will be releasing a new version of ChatSecure Android that will be powered by the core of [Conversations](http://conversations.im), as well as the first releases of Zom for iOS and Android. Both will have a new package name and signing key, so the existing ChatSecure Android app will prompt you on every launch to either download the new version of ChatSecure or Zom.
+We are excited to announce that major changes are planned for the underlying architecture of ChatSecure Android, and that there is a new UX-focused fork of the existing iOS and Android code bases called [Zom](http://zom.im). In the upcoming months, we will be releasing a new version of ChatSecure Android that will be powered by the core of [Conversations](http://conversations.im), as well as the first releases of Zom for iOS and Android. Both will have a new package name and signing key, so the [existing ChatSecure Android app](https://play.google.com/store/apps/details?id=info.guardianproject.otr.app.im&hl=en) will prompt you on every launch to either download the new version of ChatSecure or Zom.
 
 ## ChatSecure & Conversations
 
@@ -41,9 +41,9 @@ As I mentioned earlier, the [Zom fork](https://github.com/zom) is focused on a s
 
 ### Android
 
-[Zom Android](https://github.com/zom/zom-android) will have a radically different UI than the current version of ChatSecure Android, is a hard fork of the current code. Many advanced features will be hidden or removed for the sake of simplicity (with sane secure defaults of course!), which we feel is the right move when targeting the mass market. It will also only support a single account at a time, and have a bigger focus on media sharing, and have silly stuff like sticker packs.
+[Zom Android](https://github.com/zom/zom-android) will have a radically different UI than the current version of ChatSecure Android, is a hard fork of the current code. Many advanced features will be hidden or removed for the sake of simplicity (with sane secure defaults of course!), which we feel is the right move when targeting the mass market. It will also only support a single account at a time, have a bigger focus on media sharing, and sport silly stuff like sticker packs.
 
-Under the hood, it will still support OTR, XMPP, Tor, SQLCipher, certificate pinning, and all that crypto goodness that you expect, but all behind a shiny new interface designed to hide or minimize the vast majority of the complexity. No use in having a secure messenger if it's as hard to setup and use securely as PGP, right?
+Under the hood, it will still support OTR, XMPP, Tor, SQLCipher, certificate pinning, and all that crypto goodness that you expect, all bundled up behind a shiny new interface designed to hide or minimize the vast majority of the complexity. No use in having a secure messenger if it's as hard to setup and use securely as PGP, right?
 
 ### iOS
 
@@ -55,9 +55,9 @@ Another nice bonus is that this work will open the door for ChatSecure for Mac, 
 
 ## ChatSecure for Business™
 
-Since early 2012 ChatSecure development has been financially supported by the following (outstanding) organizations: [The Guardian Project](https://guardianproject.info), [OpenITP](https://openitp.org), [Rights Action Lab](http://rightsactionlab.org), and the [Open Technology Fund](https://www.opentechfund.org). There have also been many smaller individual donations over the years (thank you)! Although open source grants and donations can be a great way to fund certain kinds of software development, the process can be both glacial and arduous. Although I intend to continue funding ChatSecure with grants for the immediate future I think it would be wise to diversify our funding portfolio.
+Since early 2012 ChatSecure development has been financially supported by the following (outstanding) organizations: [The Guardian Project](https://guardianproject.info), [OpenITP](https://openitp.org), [Rights Action Lab](http://rightsactionlab.org), and the [Open Technology Fund](https://www.opentechfund.org). There have also been many smaller individual donations over the years (thank you)! Although open source grants and donations can be a great way to fund certain kinds of software development, the process can be glacial, arduous, and unforgiving at times. Even though I intend to continue funding ChatSecure development with grants for the immediate future, I still think it would be wise to begin diversifying our funding portfolio.
 
-Despite living in Berkeley, with a close physical and social proximity to the frothy tech scene of San Francisco and Silicon Valley, I still have no desire to seek VC funding for ChatSecure. I was part of the first class to the awesome [Matter startup accelerator](http://matter.vc) as a co-founder to [OpenWatch](https://web.archive.org/web/20140908092952/https://openwatch.net/) (citizen journalism app) which we later pivoted to [Kickflip](https://kickflip.io) (open source mobile live broadcasting SDK + SaaS). My experience with the VC scene, although mostly pleasant, has made it very clear that VC is a tough fit for open source privacy / security software.
+Despite living in Berkeley, with a close physical and social proximity to the frothy tech scene of San Francisco and Silicon Valley, I still have no desire to seek VC funding for ChatSecure. I was part of the first class to the awesome [Matter startup accelerator](http://matter.vc) as a co-founder to [OpenWatch](https://web.archive.org/web/20140908092952/https://openwatch.net/), an anti-authoritarian citizen journalism app. That whole concept didn't really fly in the VC world, so eventually we pivoted our core technology to become [Kickflip.io](https://kickflip.io), an open source mobile live broadcasting SDK + SaaS platform. My experience with the VC scene, although mostly pleasant, has made it very clear that traditional VC is a tough fit for open source privacy / security software.
 
 ### Whitelabel ChatSecure iOS and Android apps
 
@@ -73,24 +73,24 @@ Larger organizations and customers seeking bespoke solutions will desire the fre
 
 ### ChatSecure SaaS
 
-An XMPP client without a server is rather useless, so we will also be offering paid XMPP server and ChatSecure Push hosting. Since we believe in the power of open source software, both the client and server implementations will be completely free (as in source), and designed to be easily deployed by a moderately technical end user. Running your own secure XMPP server continues to be extremely difficult for the average person, so we intend to solve that:
+An XMPP client without a server is rather useless, so we will also be offering paid XMPP server and [ChatSecure Push](https://github.com/ChatSecure/ChatSecure-Push-Server) hosting. Since we believe in the power of open source software, both the client and server implementations will be completely free (as in source), and designed to be easily deployed by a moderately technical end user. Running your own secure XMPP server continues to be extremely difficult for the average person, so we intend to solve that:
 
-1. Paid SaaS hosting for XMPP and Push infrastructure.
-2. Secure hardware solution for Enterprise networks. (that lives behind the corporate firewall)
-3. [HIPAA](https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act#HITECH_Act:_Privacy_Requirements) Certification
-3. Easy to use Android XMPP server app based on [Prosody](https://prosody.im) that uses [Orbot](https://www.torproject.org/docs/android.html.en) `.onion` servers to provide universal [NAT traversal](https://en.wikipedia.org/wiki/NAT_traversal) (even over cell networks).
+1. **Paid SaaS hosting** for XMPP and Push infrastructure.
+2. **Secure Server Hardware** solution for Enterprise networks that lives behind your corporate firewall.
+3. **[HIPAA](https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act#HITECH_Act:_Privacy_Requirements)** and other data security regulation compliance.
+3. **ChatSecure Server for Android**. Quick to setup, easily provision new devices, secure by default (end-to-end and at-rest), and user friendly.. even for novices! This open source Android XMPP server app will be based on [Prosody](https://prosody.im) and will use [Orbot's](https://www.torproject.org/docs/android.html.en) `.onion` services to provide universal [NAT traversal](https://en.wikipedia.org/wiki/NAT_traversal) (even over cell networks).
 
-If you're interested in *ChatSecure for Business* please [send me an email](mailto:chris@chatsecure.org?subject=ChatSecure%20For%20Business) as soon as possible so we can plan to shape our product offerings to better match your needs.
+If you're interested in *ChatSecure for Business* please [send me an email](mailto:chris@chatsecure.org?subject=ChatSecure%20For%20Business) as soon as possible so we shape our product offerings to better match your needs in the upcoming months.
 
 ## Roadmap
 
 ### Push
 
-We're on track to release the first beta version of ChatSecure Push in both Zom for iOS and Android, as well as ChatSecure for iOS. We plan on integrating some components of ChatSecure Push into Conversations as well. It's by far the #1 most requested iOS feature, so I hope you'll like it.
+We're on track to release the first beta version of ChatSecure Push in both Zom for iOS and Android, as well as ChatSecure for iOS. We'll be using separate federated instances to demonstrate decentralized push between multiple native mobile applications. We plan on integrating some components of ChatSecure Push into Conversations as well. It's by far the #1 most requested iOS feature, so I hope you'll like it.
 
 ### Axolotl / OMEMO
 
-Work on implementing Axolotl / OMEMO into ChatSecure iOS will begin as soon as we can negotiate a license change to AxolotlKit.
+Work on implementing Axolotl / OMEMO into ChatSecure iOS will begin as soon as we can negotiate a license change to AxolotlKit. Hopefully we can sort that out quickly and get to work.
 
 ### Group Chat
 
@@ -100,17 +100,17 @@ We plan to support unencrypted group chat in ChatSecure iOS v3.2 this fall. Work
 
 The ongoing `ChatSecureCore.framework` effort will soon make it possible to create a sandboxed desktop version of ChatSecure for Mac. Want to help? [Drop me a line.](mailto:chris@chatsecure.org?subject=ChatSecure%20For%20Mac)
 
-### Prosody XMPP Server Android App
+### ChatSecure Server for Android
 
 It's still too hard to host your own secure XMPP server. We are going to change that... some time next year.
 
 ### Business
 
-We will be putting more effort toward providing secure communications tools to individuals, small teams, and larger businesses alike.
+We will be putting more effort toward providing secure communications tools to individuals, small teams, and larger businesses alike. Feel free to [reach out](mailto:chris@chatsecure.org?subject=ChatSecure%20for%20Business) if you'd like to discuss business applications for ChatSecure or have ideas about opportunities for growth.
 
 ### iOS 9 Tor VPN
 
-iOS 9 added a neat new API for full device VPN, which opens the door for a new way to implement Tor on iOS. [We are working on it!](https://github.com/icepa)
+As a quick side note, iOS 9 added a neat new API for full device VPN, which opens the door for a better way to implement Tor on iOS. [We are working on it!](https://github.com/icepa)
 
 ### Jobs
 
