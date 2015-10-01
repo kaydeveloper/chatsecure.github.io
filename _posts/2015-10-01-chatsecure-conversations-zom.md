@@ -120,15 +120,15 @@ I had sort of a wild idea the other day to integrate ChatSecure with the [Keybas
 
 We will soon be hiring mobile, frontend, and backend developers with some or all of the following qualifications. 
 
-* **iOS**: Objective-C, Swift, C, AutoLayout, Storyboards, CocoaPods, iPad, Cocoa, Mac UI, an app in the App Store
-* **Android**: Android 4.0 SDK and higher, Android NDK, Java, C, Android Studio, Gradle, an app in the Play Store
+* **iOS**: Objective-C, Swift, C, AutoLayout, Storyboards, CocoaPods, iPad, Cocoa, Mac UI, XCTest, an app in the App Store
+* **Android**: Android 4.0 SDK and higher, Android NDK, Java, C, Android Studio, Gradle, JUnit, an app in the Play Store
 * **Frontend**: HTML5, CSS, JavaScript, Bootstrap, Jekyll, Angular, React, Ember, your own website
 * **Backend**: Python, Django, Ubuntu, Go, Rust, Docker, your own API
 * **General Programming**: data structures, flow control, POSIX, standard stuff. Experience with Test Driven Development would be nice.
 * **Security**: Some basic knowledge of cryptography is a must, but don't stress about the advanced stuff. You must have experience with modern secure / defensive coding practices, familiar with common vulnerabilites in native code, identifying potential areas of concern, surface area analysis, etc.
 * **Open Source** contributions are highly recommended: individual projects, larger projects, pull requests, bug reports, QA, documentation, modular coding practices, semantic versioning, Travis-CI, GitHub, git. Know how to find the best existing open source libraries that solve a need. Be able to quickly assess a library's code quality and general maintenance health compared to similar projects. Know when to just rewrite it from scratch instead. Know how to properly publish your new open source library.
-* **Freelance Contrators Only**: Sorry, there are currently no full time or permanent positions. If you're looking for that steady 9-5 you really should be looking somewhere else, because this ain't it. Fortunately Obamacare has made buying individual health insurance a lot better for us freelancers.
-* **Equal Opportunity**: We do not discriminate based on race, color, sex, religion, national origin, age, disability, sexual orientation, genetic information, reprisal, socioeconomic class, tattoos, hair color, clothing style, or otherwise.
+* **Freelance Contrators Only:** Sorry, there are currently no full time or permanent positions. Interns are OK though! If you're looking for that steady 9-5 you really should be looking somewhere else, because this ain't it. Fortunately Obamacare has made buying individual health insurance a lot better for us freelancers.
+* **Equal Opportunity**: We do not discriminate based on race, color, sex, religion, national origin, age, disability, sexual orientation, genetic information, reprisal, socioeconomic class, radical political beliefs, tattoos, hair color, clothing style, or otherwise.
 * **Berkeley, CA**: East Bay or SF preferred. Remote may be negotiable though!
 
 Want to stand out by sending your application early? [Email me](mailto:chris@chatsecure.org?subject=ChatSecure%20Jobs) with a link to your GitHub profile and a short introduction.
