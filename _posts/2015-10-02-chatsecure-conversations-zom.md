@@ -23,7 +23,7 @@ We are excited to announce that major changes are planned for the underlying arc
 
 [Conversations](http://conversations.im) is currently (in my opinion) the best modern open source Android XMPP client. It was originally founded, and still primarily maintained, by [Daniel Gultsch](https://github.com/iNPUTmice). This summer he mentored [Andreas Straub's](https://github.com/strb) GSoC 2015 project to develop and implement a new XEP for asynchronous encryption based on Axolotl. They are calling it [OMEMO](http://conversations.im/omemo/) (OMEMO Multi-End Message and Object Encryption), and it's a genius way to adapt [TextSecure](https://whispersystems.org)'s fantastic [Axolotl](https://github.com/trevp/axolotl/wiki) protocol in a way that's compatible with almost every existing XMPP server (anything that supports [PEP](http://xmpp.org/extensions/xep-0163.html)).
 
-The source code to the current version of [ChatSecure Android](https://github.com/guardianproject/chatsecureandroid) will soon be reaching end-of-life, and all new features and maintenance of that code will be happening in the [Zom Android](https://github.com/zom/zom-android) fork. The Zom fork is focused on a simplified and streamlined user experience, targeted toward a less tech-savvy crowd, and is primarily intended to compete with [WeChat](https://en.wikipedia.org/wiki/WeChat) in the Chinese and Tibetan markets.
+The source code to the current version of [ChatSecure Android](https://github.com/guardianproject/chatsecureandroid) will soon be reaching end-of-life, and all new features and maintenance of that code will be happening in the [Zom Android](https://github.com/zom/zom-android) fork. The Zom fork is focused on a simplified and streamlined user experience, targeted toward a less tech-savvy crowd, but still powered by strong cryptography under the hood.
 
 To keep the ChatSecure™ brand consistent across platforms, we are partnering with Daniel Gultsch to create a whitelabeled version of Conversations to become the new ChatSecure Android. ChatSecure Android will continue to be offered for free on Google Play and [F-Droid](https://f-droid.org), but will be signed by a new key, so keep an eye out for that. We'll do our best to ease the transition.
 
@@ -33,11 +33,11 @@ Daniel and I discovered that we both have been working on methods to make it eas
 
 ### iOS
 
-Soon we will be implementing [OMEMO Encryption](http://conversations.im/xeps/multi-end.html) in ChatSecure iOS, and immediately contributing our OMEMO XEP code upstream to [XMPPFramework](https://github.com/robbiehanson/XMPPFramework) so that other apps can benefit. We plan to utilize the pre-existing Objective-C library [AxolotlKit](https://github.com/WhisperSystems/AxolotlKit), written by [Frederic Jacobs](https://github.com/FredericJacobs), that has been used in production since the release of Open Whisper System's [Signal](https://itunes.apple.com/us/app/signal-private-messenger/id874139669?mt=8) v2.0 for iOS. Unfortunately AxolotlKit is still currently GPL (and therefore [not redistributable to the App Store](http://arstechnica.com/apple/2010/11/the-vlc-ios-license-dispute-and-how-it-could-spread-to-android/)) so this work is on hold until we can negotiate a change to an App Store-comptible copyleft license like [LGPLv2](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html) or [MPL 2.0](https://www.mozilla.org/en-US/MPL/2.0/) from [Fred](https://twitter.com/fredericjacobs) and [Moxie](Ohttps://twitter.com/moxie).
+Soon we will be implementing [OMEMO Encryption](http://conversations.im/xeps/multi-end.html) in ChatSecure iOS, and immediately contributing our OMEMO XEP code upstream to [XMPPFramework](https://github.com/robbiehanson/XMPPFramework) so that other apps can benefit. We plan to utilize the pre-existing Objective-C library [AxolotlKit](https://github.com/WhisperSystems/AxolotlKit), written by [Frederic Jacobs](https://github.com/FredericJacobs), that has been used in production since the release of Open Whisper System's [Signal](https://itunes.apple.com/us/app/signal-private-messenger/id874139669?mt=8) v2.0 for iOS. Unfortunately AxolotlKit is still currently GPL (and therefore [not redistributable to the App Store](http://arstechnica.com/apple/2010/11/the-vlc-ios-license-dispute-and-how-it-could-spread-to-android/)) so this work is on hold until we can negotiate a change to an App Store-comptible copyleft license like [LGPLv2](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html) or [MPL 2.0](https://www.mozilla.org/en-US/MPL/2.0/) from [Fred](https://twitter.com/fredericjacobs) and [Moxie](https://twitter.com/moxie).
 
 ## ChatSecure & Zom
 
-As I mentioned earlier, the [Zom fork](https://github.com/zom) is focused on a simplified and streamlined user experience, targeted toward a less tech-savvy crowd, and is primarily intended to compete with [WeChat](https://en.wikipedia.org/wiki/WeChat) in the Chinese and Tibetan markets.
+As I mentioned earlier, the [Zom fork](https://github.com/zom) is focused on a simplified and streamlined user experience, targeted toward a less tech-savvy crowd. Our goal is to produce a messenging product that is fun and easy to use, while also being secure by default, and as decentralized as possible. Users shouldn't have to know or care that this is built for security under the hood, all they need to care about is being able to send cat pictures and emojis to their friends without fear of censorship or retaliation. This is a [notoriously hard problem to solve](https://en.wikipedia.org/wiki/Zooko%27s_triangle).
 
 ### Android
 
@@ -54,6 +54,8 @@ Our [ChatSecure Core](https://chatsecure.org/blog/chatsecure-core/) whitelabelin
 Another nice bonus is that this work will open the door for ChatSecure for Mac, which will be the first open source, modern, native, sandboxed XMPP client for OS X. The lack of maintenance of [Adium](https://en.wikipedia.org/wiki/Adium) has made this issue especially urgent so, if you'd like to help, please be in contact!
 
 ## ChatSecure for Business™
+
+[![Doing Business](/images/business.jpg)](https://flic.kr/p/55FLSR)
 
 Since early 2012 ChatSecure development has been financially supported by the following (outstanding) organizations: [The Guardian Project](https://guardianproject.info), [OpenITP](https://openitp.org), [Rights Action Lab](http://rightsactionlab.org), and the [Open Technology Fund](https://www.opentechfund.org). There have also been many smaller individual donations over the years (thank you)! Although open source grants and donations can be a great way to fund certain kinds of software development, the process can be glacial, arduous, and unforgiving at times. Even though I intend to continue funding ChatSecure development with grants for the immediate future, I still think it would be wise to begin diversifying our funding portfolio.
 
@@ -83,6 +85,8 @@ An XMPP client without a server is rather useless, so we will also be offering p
 If you're interested in *ChatSecure for Business* please [send me an email](mailto:chris@chatsecure.org?subject=ChatSecure%20For%20Business) as soon as possible so we shape our product offerings to better match your needs in the upcoming months.
 
 ## Roadmap
+
+[![It's a road](/images/roadmap.jpg)](https://flic.kr/p/9UViMr)
 
 ### Push
 
