@@ -11,22 +11,34 @@ author:
   bio: Founder & Lead Developer
 ---
 
-# [🌞🌼🐍🐿🐅🐪🐉🕊🌵🌲🌅🌉🌌💎...] also known as your Speakable Public Identity Key
+# [🌞🌞🌞🌞🌵🌲🌼🐅🕊...] also known as your Speakable Public Identity Key
 
 I've been doing a lot of thinking about novel ways to represent 32-byte `Ed25519` public identity keys vocally, visually, and otherwise. Here's a simplified version (`v0.1`) for the sake of example.
 
 If we choose an octal set of 8 emoji characters with a parallel prounounceable syllabylic mapping, you can represent a 32-byte public key (256-bits) in X characters.
 
-### Octal	/	Emoji	/	Syllable Mapping
+### Octal / Decimal / Hexidecimal	/	Emoji	/	Syllable Mapping
 
-* `0	|	🌞	| ohm`
-* `	1	|	🌵	| ma`
-* `2	|	🌲	| ni`
-* `3	|	🌼	| pad`
-* `4	|	🐅	| me`
-* `5	|	🕊	| hum`
-* `6	|	🐉	| free`
-* `7	|	🌅	| dom`
+| Dec  | Oct    |  Hex   | Emoji | Syllable |
+|------|--------|--------|-------|----------|
+| `0`	| `0o00` | `0x00` | 🌞	| ohm	   |
+| `1`	| `0o01` | `0x01` |	🌵	| ma 		| 
+| `2`	| `0o02` | `0x02` |	🌲	| ni 		| 
+| `3`	| `0o03` | `0x03` |	🌼	| pad 		| 
+| `4`	| `0o04` | `0x04` |	🐅	| me 		| 
+| `5`	| `0o05` | `0x05` |	🕊	| hum 		| 
+| `6`	| `0o06` | `0x06` |	🐉	| fre 		| 
+| `7`	| `0o07` | `0x07` |	🌅	| dom 		| 
+| `8`	| `0o10` | `0x08` |	🌉	| mod 		| 
+| `9`	| `0o11` | `0x09` |	🌌	| erf 		| 
+| `10`	| `0o12` | `0x0A` |	🌋	| muh 		| 
+| `11`	| `0o13` | `0x0B` |	🕸	| em 		| 
+| `12`	| `0o14` | `0x0C` |	🐚	| dap 		| 
+| `13`	| `0o15` | `0x0D` |	⭐️	| in 		| 
+| `14`	| `0o16` | `0x0E` |	☄	| am 		| 
+| `15`	| `0o17` | `0x0F` |	💎	| mho 		|
+
+
 
 Here's a 256-bit (32-byte) random octal number from [`random.org`](https://www.random.org/cgi-bin/randbyte?nbytes=32&format=o), which is the same length as an Ed25519 signing key:
 
