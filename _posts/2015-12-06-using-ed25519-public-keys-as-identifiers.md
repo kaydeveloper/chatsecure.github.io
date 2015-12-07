@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Better XMPP Identifiers: Ed25519 Public Keys and .onions
+title: Better XMPP Identifiers - Ed25519 Public Keys and .onions
 category: blog
 
 author:
@@ -11,7 +11,7 @@ author:
   bio: Founder & Lead Developer
 ---
 
-# Better XMPP Identifiers: Ed25519 Public Keys and .onions
+# Better XMPP Identifiers - Ed25519 Public Keys and .onions
 
 In a future version of ChatSecure I'd like to introduce a human-usable implementation of using entire public keys as identifiers. We are already experimenting with appending a portion of your OTR fingerprint to your XMPP username, but I'd like to take it a step further using some of the latest advances in ECC (Eliptic Curve Cryptography).
 
@@ -65,8 +65,8 @@ Using this new public key identifier, you can sign your other cryptographic iden
     
 This above example could be your fully valid JID containing your public key and personal `.onion` address. Because no human would ever type that in, we can share it in link form:
 
-* URL: [https://chatsecure.org/i/#b29la2NpNGtiYnMyb3Rsc2RicXRrM2o3cGJ1NGxnY2pqNzRxbmpqb2N1enlsYm5hZnFhYUB3bGNwbXJ1Z2xoeHA2cXV6Lm9uaW9u](https://chatsecure.org/i/#b29la2NpNGtiYnMyb3Rsc2RicXRrM2o3cGJ1NGxnY2pqNzRxbmpqb2N1enlsYm5hZnFhYUB3bGNwbXJ1Z2xoeHA2cXV6Lm9uaW9u)
-* XMPP URI: [xmpp:ooekci4kbbs2otlsdbqtk3j7pbu4lgcjj74qnjjocuzylbnafqaa@wlcpmruglhxp6quz.onion](ooekci4kbbs2otlsdbqtk3j7pbu4lgcjj74qnjjocuzylbnafqaa@wlcpmruglhxp6quz.onion)
+* [Invite Link URL](https://chatsecure.org/i/#b29la2NpNGtiYnMyb3Rsc2RicXRrM2o3cGJ1NGxnY2pqNzRxbmpqb2N1enlsYm5hZnFhYUB3bGNwbXJ1Z2xoeHA2cXV6Lm9uaW9u)
+* [XMPP URI](ooekci4kbbs2otlsdbqtk3j7pbu4lgcjj74qnjjocuzylbnafqaa@wlcpmruglhxp6quz.onion)
 
 You can still have a human-readable username in your XMPP vCard, so you can choose whatever 'username' you'd like without creating a collision.
 
