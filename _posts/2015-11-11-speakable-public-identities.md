@@ -42,15 +42,28 @@ If we choose an octal set of 8 emoji characters with a parallel prounounceable s
 
 Here's a 256-bit (32-byte) random octal number from [`random.org`](https://www.random.org/cgi-bin/randbyte?nbytes=32&format=o), which is the same length as an Ed25519 signing key:
 
-> Octal (triples): 012 000 253 040 076 137 346 101 323 323 250 007 215 234 235 101 335 245 015 021 101 064 267 373 301 126 013 356 317 120 123 026
+> Octal (triples): 012 000 253 040 076 137 346 101 323
+>  323 250 007 215 234 235 101 335 245 015 021 101 064
+>  267 373 301 126 013 356 317 120 123 026
 > 
-> Octal: 012000253040076137346101323323250007215234235101335245015021101064267373301126013356317120123026
+> Octal: 01200025304007613734610132332325000721523
+> 423510133524501502110106426737330112601335631712
+> 0123026
 >
 > Decimal (truncated): 9.713978307904121E+84
 > 
-> Hexadecimal (truncated): 500156201F17DC000000000000000000000000000000000000000000000000000000000
+> Hexadecimal (truncated): 500156201F17DC0000000000000000000
+> 0000000000000000000000000000000
+> 0000000
 >  
-> Binary (truncated): 1010000000000010101011000100000000111110001011111011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+> Binary (truncated): 101000000000001010101100010000000
+> 01111100010111110111000000000000
+> 0000000000000000000000000000000000
+> 000000000000000000000000000000000000
+> 00000000000000000000000000000000000000
+> 0000000000000000000000000000000000000000
+> 00000000000000000000000000000000000000000
+> 00000000000000000000000000000
 
 To convert this to our new mapping, simply replace all of the numbers with their equivalent emoji character, or pronounceable syllable. Obviously mostly humans don't have the patience to whisper out loud the whole key, but even speaking the beginning `N`(?) characters is good enough to prove your identity cryptographically. To bruteforce past the last `N` characters would take an unreasonable amount of time, without the availability of quantum computers of course.
 
@@ -60,7 +73,12 @@ If you run this random octal UTF-8 string through the `ears_v01()` function, you
 
 You can also see the emoji version below:
 
-> 🌞🌵🌲 🌞🌞🌞 🌲🕊🌼 🌞🐅🌞 🌞🌅🐉 🌵🌼🌅 🌼🐅🐉 🌵🌞🌵 🌼🌲🌼 🌼🌲🌼 🌲🕊🌞 🌞🌞🌅 🌲🌵🕊 🌲🌼🐅 🌲🌼🕊 🌵🌞🌵 🌼🌼🕊 🌲🐅🕊 🌞🌵🕊 🌞🌲🌵 🌵🌞🌵 🌞🐉🐅 🌲🐉🌅 🌼🌅🌼 🌼🌞🌵 🌵🌲🐉 🌞🌵🌼 🌼🕊🐉 🌼🌵🌅 🌵🌲🌞 🌵🌲🌼 🌞🌲🐉
+> 🌞🌵🌲 🌞🌞🌞 🌲🕊🌼 🌞🐅🌞 🌞🌅🐉 🌵🌼🌅
+>  🌼🐅🐉 🌵🌞🌵 🌼🌲🌼 🌼🌲🌼 🌲🕊🌞 🌞🌞🌅
+>  🌲🌵🕊 🌲🌼🐅 🌲🌼🕊 🌵🌞🌵 🌼🌼🕊 🌲🐅🕊
+>  🌞🌵🕊 🌞🌲🌵 🌵🌞🌵 🌞🐉🐅 🌲🐉🌅 🌼🌅🌼
+>  🌼🌞🌵 🌵🌲🐉 🌞🌵🌼 🌼🕊🐉 🌼🌵🌅 🌵🌲🌞
+>  🌵🌲🌼 🌞🌲🐉
 
 If we choose 10 or 16 syllables and emojis, we can reduce the length of the key by using decimal or hexadecimal mapping instead of octal. 
 
