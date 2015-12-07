@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: # [🌼🐍🐿🐅🐪🐉🕊🌵🌲💎...] or Your Speakable Public Identity Key
+title: Speakable Public Identities
 category: blog
 
 author:
@@ -11,7 +11,7 @@ author:
   bio: Founder & Lead Developer
 ---
 
-# [🌞🌞🌞🌞🌵🌲🌼🐅🕊...] also known as your Speakable Public Identity Key
+# Speakable Public Identities
 
 I've been doing a lot of thinking about novel ways to represent 32-byte `Ed25519` public identity keys vocally, visually, and otherwise. Here's a simplified version (`v0.1`) for the sake of example.
 
