@@ -61,8 +61,6 @@ The above example is the `dukgo.com` XMPP server's `.onion` address.
 
 A similar approach to the `.onion` endpoints has been taken by the [Ricochet](https://en.wikipedia.org/wiki/Ricochet_(software)) project.
 
-> Ricochet is a decentralized instant messenger, meaning there is no server to connect to and share metadata with.[7] Further, using Tor (anonymity network), Ricochet starts a Tor hidden service locally on a person's computer and can only communicate with other Ricochet users who are also running their own Ricochet-created Tor hidden services. This way, Ricochet communication never leaves the Tor network. A user screen name (example: “ricochet:hslmfsg47dmcqctb“) is auto-generated upon first starting Ricochet; the first half of the screen name is the word "ricochet", with the second half being the address of the Tor hidden service. Before two Ricochet users can talk, at least one of them must privately or publicly share their unique screen name in some way.
-
 They replace both the username and server with the `.onion` address itself. The main drawback (or feature, depending on your viewpoint) is that it's a ground-up rewrite of a full stack chat client, which means no interoperability for existing XMPP clients.
 
 [Pond](https://pond.imperialviolet.org) also operates in a similar way as far as `.onion` addresses, but as far as I know there's still only a rudimentary GUI and command line client, which limits its usefulness to very technical users.
