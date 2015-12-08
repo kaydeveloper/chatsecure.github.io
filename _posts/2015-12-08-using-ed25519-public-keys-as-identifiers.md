@@ -69,7 +69,7 @@ My approach would be completely backwards compatible with existing XMPP clients,
 
 ### A Glorious Dawn
 
-Using this new public key identifier, you can sign your other cryptographic identitites and identifiers, and upload the results to [`keybase.io`](https://keybase.io), or wherever. New contacts can automatically verify your identity, and can use our new QR-code invites and links to avoid typing these long strings.
+Using this new public key identifier, you can sign your other cryptographic identities and identifiers, and upload the results to [`keybase.io`](https://keybase.io), or wherever. New contacts can automatically verify your identity, and can use our new QR-code invites and links to avoid typing these long strings.
 
     ooekci4kbbs2otlsdbqtk3j7pbu4lgcjj74qnjjocuzylbnafqaa@wlcpmruglhxp6quz.onion
     
@@ -77,11 +77,22 @@ This above example could be your fully valid JID containing your public key and 
 
 * [Invite Link URL](https://chatsecure.org/i/#b29la2NpNGtiYnMyb3Rsc2RicXRrM2o3cGJ1NGxnY2pqNzRxbmpqb2N1enlsYm5hZnFhYUB3bGNwbXJ1Z2xoeHA2cXV6Lm9uaW9u) (Link will 404, server/client support still in progress)
 * [XMPP URI](ooekci4kbbs2otlsdbqtk3j7pbu4lgcjj74qnjjocuzylbnafqaa@wlcpmruglhxp6quz.onion)
+* QR Code ![QR Code Example](/images/invite_qrcode_sample.jpg)
 
 You can still have a human-readable username in your [XMPP vCard](http://xmpp.org/extensions/xep-0054.html), so you can choose whatever 'username' you'd like without creating a collision. You can also upload signatures of your [OTR](https://en.wikipedia.org/wiki/Off-the-Record_Messaging), [PGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy#Design), or [Axolotl](https://github.com/WhisperSystems/Signal-Android/wiki/ProtocolV2) identities (using this same Ed25519 key) to your vCard to help contacts auto-verify your cryptographic identity.
 
-### Coming Soon
+### Contrived Example
 
-This is just one of many exciting changes I want to bring in the months ahead. Coming very soon will be a new iOS release with group chat, onboarding, and... **push notifications**. 🚀
+Bob serendipitously meets Alice in a crowded bar and they instantly hit it off by talking about obscure cryptographic protocols. A loud band starts playing and they have difficulty maintaining conversation, so they decide to move their communication to a secure channel.
+ 
+Bob opens up the latest version of ChatSecure, and tries to share his Invite URL to Alice's phone via a secure [Bluetooth LE](https://en.wikipedia.org/wiki/Bluetooth_low_energy) channel. Due to the crowding of the 2.4 GHz channel, they have trouble establishing a connection, and decide to switch to QR codes, which should work well in the dim lighting.
 
-Cheers!
+Alice successfully scans Bob's QR code Invite URL, which opens up her browser to `chatsecure.org/i/#...`, where she sees how to download the latest version of ChatSecure. Once the app finishes downloading, she clicks the same link again, but this time instead of opening her browser, it opens ChatSecure to the Add Contact screen. Bob's account details are shown on the screen, and she can see his other cryptographic identities being pulled down in realtime from Keybase.
+
+Now that they have established a secure channel, they decide that this music is too loud anyway, and it would be a good point to leave the bar and drink some coffee at one of their apartments. An encryption success story!
+
+### Roadmap
+
+This is just one of many exciting changes I want to bring in the months ahead. Coming very soon will be a new iOS release with group chat, slick onboarding, and... **push notifications**. 🚀
+
+Stay tuned!
