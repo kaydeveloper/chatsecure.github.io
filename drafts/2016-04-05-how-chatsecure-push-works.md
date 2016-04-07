@@ -35,7 +35,7 @@ On the chat screen there is now a new button called Knock that has replaces the 
 
 About 5 seconds later Bob's client will wake up in the background and automatically login to his XMPP account. 
 
-![Knock Received](/images/knock-received.png)
+![Knock Received](/images/knock-received.jpg)
 
 His device will also receive back the token he gave to Alice, do a local lookup to see that the incoming push is coming from Alice, and show a local notification visibile on the lock screen. We are able to keep the app open for about 20 seconds in the background, which is enough time for Alice to establish a new OTR session and send a few messages.
 
