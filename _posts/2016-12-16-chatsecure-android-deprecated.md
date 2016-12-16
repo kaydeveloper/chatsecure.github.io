@@ -1,10 +1,17 @@
 ---
-layout: info
-permalink: /faq/
-title: Frequently Asked Questions
+layout: post
+
+title: The End of ChatSecure Android
+category: blog
+
+author:
+  name: Chris Ballinger
+  twitter: chrisballingr
+  gplus: 110173710196322914492 
+  bio: Founder & Lead Developer
 ---
 
-### What happened to ChatSecure Android?
+# The End of ChatSecure Android
 
 The developers of the Android version have [hard forked the code](https://github.com/zom/Zom-Android) and are no longer maintaining the upstream version. If you still use ChatSecure Android you should migrate to another app immediately. For a similar user experience and the best compatibility with the latest features of ChatSecure iOS, we recommend downloading [Conversations](https://conversations.im).
 

@@ -17,9 +17,9 @@ We accept [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_bu
 
 If you would like to contribute/improve a translation:
 
- 1. Visit our Transifex project page ([iOS](https://www.transifex.net/projects/p/chatsecure/) / [Android](https://www.transifex.com/projects/p/gibberbot/)) and make an account if you don't have one already.
- 2. Go to the Resources section ([iOS](https://www.transifex.net/projects/p/chatsecure/resources/) / [Android](https://www.transifex.com/projects/p/gibberbot/resources/)) to add a new language or improve an existing translation.
- 3. Open an issue on Github ([iOS](https://github.com/chrisballinger/Off-the-Record-iOS/issues) / [Android](https://github.com/guardianproject/ChatSecureAndroid/issues)) notifying us of your translation.
+ 1. Visit our [Transifex project page](https://www.transifex.net/projects/p/chatsecure/) and make an account if you don't have one already.
+ 2. Go to the [Resources section](https://www.transifex.net/projects/p/chatsecure/resources/) to add a new language or improve an existing translation.
+ 3. [Open an issue on Github](https://github.com/chrisballinger/Off-the-Record-iOS/issues) notifying us of your translation.
  4. Thank you!
 
 
