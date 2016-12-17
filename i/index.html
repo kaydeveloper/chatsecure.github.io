@@ -27,7 +27,7 @@
                         var hash = window.location.hash.substr(1);
                         var username = atob(hash).split('?')[0];
                         if (hash.length > 0) {
-                             document.getElementById("invite_sender").innerHTML = "Your friend " + username + " wants to chat with you.";
+                             document.getElementById("invite_sender").innerHTML = "Your friend <a href=xmpp:" + username + ">" + username + "</a> wants to chat with you.";
                         }
                         </script>
                         <h3>Download ChatSecure for iOS</h3>
