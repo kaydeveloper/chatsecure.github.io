@@ -54,7 +54,7 @@ gems: ['jekyll-paginate', 'kramdown', 'RedCloth']
 future:      false
 show_drafts: nil
 limit_posts: 0
-highlighter: pygments
+highlighter: rouge
 
 permalink:     /:categories/:title/
 paginate_path: 'blog/page:num'
