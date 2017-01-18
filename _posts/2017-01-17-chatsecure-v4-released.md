@@ -17,7 +17,7 @@ We're excited to announce the release of ChatSecure v4.0, our largest step forwa
 
 Using [OTR](https://en.wikipedia.org/wiki/Off-the-Record_Messaging) on mobile has always been problematic because it was designed for desktop computers and synchronous conversations. For example, if you don't have an active OTR session, you can't start a new secure session if your contact is offline. Even if you do have an OTR session, it can go stale if one of the sides is purged from RAM due to low memory. This can lead to messages that disappear into the ether with no standardized way for the recipient to indicate which message they couldn't decrypt.
 
-OMEMO fixes all of these problems, and opens doors to new features that were impossible with OTR, like multi-client support, encrypted group chat, and more reliable file transfers. Multi-client conversations would work particularly well with our planned Desktop client, so we're excited to add support for these features in a future releases.
+OMEMO fixes all of these problems, and opens doors to new features that were impossible with OTR, like multi-client support, encrypted group chat, and more reliable file transfers. Multi-client conversations would work particularly well with our planned Desktop client, so we're excited to add support for these features in  future releases.
 
 There are some other major changes in this release that improve the user experience, such as the outgoing message queue and enhanced identity management. The message queue automatically negotiates OMEMO and OTR sessions and allows you to resend messages in case of failure.
 
