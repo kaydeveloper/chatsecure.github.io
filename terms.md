@@ -1,6 +1,6 @@
 ---
 layout: info
-permalink: /terms-of-service/
+permalink: /terms/
 title: Terms of Service
 ---
 
