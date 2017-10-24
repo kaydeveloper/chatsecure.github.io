@@ -15,7 +15,7 @@ author:
 
 ![California Coastline](/images/california-coast.jpg)
 
-> Thank you to all of the monthly supporters! Your contributions have been a great motivator to keep the release cycle moving along at a regular pace, from master branch, to TestFlight, to App Store. Not a supporter yet? It's easy! You can start supporting development directly in the app. Remember, [sustainable open source starts with you](https://chatsecure.org/blog/sustainable-open-source-starts-with-you/)! ❤️
+First of all, thank you to all of the monthly supporters! Your contributions have been a great motivator to keep the release cycle moving along at a regular pace, from master branch, to TestFlight, to App Store. Not a supporter yet? It's easy! You can start supporting development directly in the app. Remember, [sustainable open source starts with you](https://chatsecure.org/blog/sustainable-open-source-starts-with-you/)! ❤️
 
 This version contains numerous improvements to the existing group chat functionality: unencrypted media transfers (XEP-0363), brand new participant list, and enhanced stability and reliability. There is still a lot of work to be done, but it has stabilized enough for a general release. It was designed with small, private groups in mind, so it hasn't been tested with very large groups, and "anonymous" groups are currently unsupported.
 
