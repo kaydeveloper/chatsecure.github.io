@@ -6,7 +6,7 @@ title: About
 
 ![ChatSecure Logo](/images/chatsecure-banner.png)
 
-[ChatSecure](https://chatsecure.org) is a free and open source encrypted chat client for iPhone that supports [OTR encryption](https://en.wikipedia.org/wiki/Off-the-Record_Messaging) over [XMPP](https://en.wikipedia.org/wiki/Xmpp). Unfortunately ChatSecure Android is no longer available ([more info](/faq)).
+[ChatSecure](https://chatsecure.org) is a free and open source encrypted chat client for iPhone that supports [OMEMO encryption](https://en.wikipedia.org/wiki/OMEMO) and [OTR encryption](https://en.wikipedia.org/wiki/Off-the-Record_Messaging) over [XMPP](https://en.wikipedia.org/wiki/Xmpp). Unfortunately ChatSecure Android is no longer available ([more info](/faq)).
 
 ChatSecure is available on the Apple App Store for free.
 
