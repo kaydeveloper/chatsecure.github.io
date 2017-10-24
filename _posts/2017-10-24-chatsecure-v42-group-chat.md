@@ -32,5 +32,5 @@ Up next is support for [XEP-0313: Message Archive Management](https://xmpp.org/e
 * Improve performance of chat view. Thanks @stigger!
 * Bug fixes and refactoring
 * Tor 0.3.0.11
-* Full release notes: https://github.com/ChatSecure/ChatSecure-iOS/releases/tag/v4.2.0
-* Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.1.0...v4.2.0
+* [Full release notes](https://github.com/ChatSecure/ChatSecure-iOS/releases/tag/v4.2.0)
+* [Changelog](https://github.com/chatsecure/chatsecure-ios/compare/v4.1.0...v4.2.0)
